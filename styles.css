@@ -12,7 +12,7 @@ header {
 
 header img {
     width: 100%; /* Reduce the size of the banner image if it's too large */
-    max-height: 250px;
+    max-height: 275px;
     height: auto;
     display: block;
 }
