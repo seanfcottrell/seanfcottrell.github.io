@@ -33,6 +33,25 @@ section {
     color: #555; /* Changes the color of the text */
 }
 
+#repositories ul {
+    list-style-type: none; /* Removes the default list style */
+    padding: 0; /* Removes default padding */
+}
+
+#repositories li {
+    margin-bottom: 10px; /* Adds space between each repository link */
+}
+
+#repositories a {
+    color: #0077cc; /* Sets the link color */
+    text-decoration: none; /* Removes the underline from links */
+    font-weight: bold; /* Makes the font bold */
+}
+
+#repositories a:hover {
+    text-decoration: underline; /* Adds an underline on hover for better usability */
+}
+
 footer {
     background-color: #f8f8f8;
     text-align: center;
