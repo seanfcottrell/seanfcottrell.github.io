@@ -11,7 +11,8 @@ header {
 }
 
 header img {
-    max-width: 90%; /* Reduce the size of the banner image if it's too large */
+    max-width: 100%; /* Reduce the size of the banner image if it's too large */
+    max-height: 150px;
     height: auto;
 }
 
