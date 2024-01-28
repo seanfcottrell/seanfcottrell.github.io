@@ -6,12 +6,12 @@ body {
 
 header {
     background-color: #f8f8f8;
-    padding: 10px; /* Reduced padding to make the header less tall */
+    padding: 5px; /* Further reduced padding to make the header less tall */
     text-align: center;
 }
 
 header img {
-    max-width: 100%;
+    max-width: 90%; /* Reduce the size of the banner image if it's too large */
     height: auto;
 }
 
@@ -19,9 +19,8 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; /* or any other size */
-    /* border-radius: 50%; Removed this line to not make the image round */
-    margin-top: 20px; /* add some space above the image */
+    width: 30%; /* Reduced width to decrease the size of the personal image */
+    margin-top: 10px; /* Adjusted space above the image */
 }
 
 section {
@@ -42,4 +41,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
