@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #f8f8f8;
-    padding: 1px;
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 10px;
     text-align: center;
 }
 
@@ -31,16 +31,17 @@ nav ul {
     margin: 0; /* Remove margin */
     display: flex; /* Make the list items horizontal */
     justify-content: center; /* Center the list items */
-    background-color: #333; /* Background color for the nav bar */
+    background-color: #f8f8f8; /* Match header background color */
+    border-top: 1px solid #ddd; /* Optional: Add a top border for separation */
 }
 
 nav ul li {
-    margin: 0 10px; /* Space between links */
+    margin: 0 15px; /* Space between links */
 }
 
 nav ul li a {
     text-decoration: none; /* Remove underline from links */
-    color: white; /* White text color */
+    color: #333; /* Darker color to match header text */
     font-size: 1em; /* Set font size */
     padding: 10px 15px; /* Add padding around the links */
     border-radius: 5px; /* Rounded corners for links */
@@ -48,7 +49,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #575757; /* Slightly lighter gray on hover */
+    background-color: #e0e0e0; /* Light gray background on hover */
 }
 
 section {
