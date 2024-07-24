@@ -6,12 +6,12 @@ body {
 
 header {
     background-color: #f8f8f8;
-    padding: 1px; /* Further reduced padding to make the header less tall */
+    padding: 1px;
     text-align: center;
 }
 
 header img {
-    width: 100%; /* Reduce the size of the banner image if it's too large */
+    width: 100%;
     max-height: 275px;
     height: auto;
     display: block;
@@ -21,23 +21,43 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%; /* Reduced width to decrease the size of the personal image */
-    margin-top: 10px; /* Adjusted space above the image */
+    width: 30%;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Make the list items horizontal */
+    justify-content: center; /* Center the list items */
+    background-color: #333; /* Background color for the nav bar */
+}
+
+nav ul li {
+    margin: 0 10px; /* Space between links */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color */
+    font-size: 1em; /* Set font size */
+    padding: 10px 15px; /* Add padding around the links */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Slightly lighter gray on hover */
 }
 
 section {
     margin: 20px;
 }
 
-#publications p {
-    font-style: italic; /* Makes the font italic */
-    margin-bottom: 20px; /* Adds space between the description and the list of publications */
-    color: #555; /* Changes the color of the text */
-}
-
+#publications p,
 #repositories p {
-    font-style: italic; /* Makes the font italic */
-    margin-bottom: 20px; /* Adds space between the description and the list of publications */
-    color: #555; /* Changes the color of the text */
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #555;
 }
-
