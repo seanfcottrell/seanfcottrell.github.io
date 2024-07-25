@@ -14,7 +14,7 @@
         <p>This is stTEL, a graph Transformer Convolution Network Autoencoder enabled topological representation and ensemble method for Spatial Transcriptomics data. A series of TCN layers are used to encode the gene expression data while respecting the spatial relations in the tissue architecture. Meanwhile, a DGI like graph contrastive learning technique is used to refine the encoder output by training a discriminator on randomly permuted gene expression vectors. The output of the decoder is then a denoised gene expression matrix, which we use for topological analysis. </p>
         <img src="stTEL.png" alt="Centered Image" id="sttel-image" width="1000" height="600">
         <p>A series of cell-cell similarity graphs are constructed via kNN-induced filtration in the gene expression space. Various combinations of these graphs are used in Topological PCA to create a sequence of latent representations, which are then individually clustered and fed to a hierarchical clustering algorithm for the final spatial domain detection. </p>
-        <p>Extensive benchmarking demonstrates the ability of stTEL to outperform a variety of other state-of-the-art approaches for accurately deciphering spatial domains. </p>
+        <p>Extensive benchmarking demonstrates the ability of stTEL to outperform several other state-of-the-art approaches for accurately deciphering spatial domains. </p>
     </section>
     <footer>
         <p><a href="index.html">Back to Home</a></p> <!-- Link back to the main page -->
